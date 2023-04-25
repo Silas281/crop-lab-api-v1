@@ -17,7 +17,7 @@ def get_device():
 
 device = get_device()
 # model
-model = loaded_model = torch.load('./crop_labv1.pth', map_location='cpu')
+model = loaded_model = torch.load('./crop_labv2.pth', map_location='cpu')
 
 
 # imagenet classes
